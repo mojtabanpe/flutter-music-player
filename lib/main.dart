@@ -24,6 +24,9 @@ class MusicApp extends StatefulWidget {
 class _MusicAppState extends State<MusicApp> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      backgroundColor: const Color(0xFF393E46),
+      appBar: AppBar(title: const Text('Music Player')),
+    );
   }
 }
